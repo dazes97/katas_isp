@@ -8,7 +8,7 @@ import {
   Boat1,
 } from "../src/index";
 
-// 🐦 KATA 1: Bird2
+// KATA 1: Bird2
 describe("Bird2", () => {
   it("should fly without throwing", () => {
     const bird = new Bird2();
@@ -16,7 +16,7 @@ describe("Bird2", () => {
   });
 });
 
-// 🖨️ KATA 2: BasicPrinter2
+// KATA 2: BasicPrinter2
 describe("BasicPrinter2", () => {
   it("should print without throwing", () => {
     const printer = new BasicPrinter2();
@@ -24,7 +24,7 @@ describe("BasicPrinter2", () => {
   });
 });
 
-// 🖨️🔍 KATA 3: AdvancedPrinter
+// KATA 3: AdvancedPrinter
 describe("AdvancedPrinter", () => {
   it("should print without throwing", () => {
     const printer = new AdvancedPrinter();
@@ -37,7 +37,7 @@ describe("AdvancedPrinter", () => {
   });
 });
 
-// 🚗 KATA 4: Car
+//KATA 4: Car
 describe("Car", () => {
   it("should drive without throwing", () => {
     const car = new Car();
@@ -45,7 +45,7 @@ describe("Car", () => {
   });
 });
 
-// ✈️ KATA 5: Plane1
+// KATA 5: Plane1
 describe("Plane1", () => {
   it("should drive without throwing", () => {
     const plane = new Plane1();
@@ -58,7 +58,7 @@ describe("Plane1", () => {
   });
 });
 
-// 🚤 KATA 6: Boat1
+// KATA 6: Boat1
 describe("Boat1", () => {
   it("should drive (sail) without throwing", () => {
     const boat = new Boat1();
