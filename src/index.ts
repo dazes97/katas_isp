@@ -44,7 +44,7 @@ export interface Runnable {
   run(): void;
 }
 
-class Bird2 implements Flyable, Runnable {
+export class Bird2 implements Flyable, Runnable {
   fly(): void {
     console.log("El pajaro vuela(logico)");
   }
@@ -65,7 +65,7 @@ export interface LegacyPrinter {
 
 // 2.- Implementar una clase BasicPrinter que solo utilice print().
 
-class BasicPrinter1 implements LegacyPrinter {
+export class BasicPrinter1 implements LegacyPrinter {
   print(document: string): void {
     console.log(`Imprimiendo documento: ${document}`);
   }
